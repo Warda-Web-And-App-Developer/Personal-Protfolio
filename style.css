@@ -1,0 +1,296 @@
+/* font-family: "Agbalumo", system-ui; */
+/* font-family: "Nunito", sans-serif; */
+/* font-family: "Mea Culpa", cursive; */
+/* font-family: "Kaushan Script", cursive; */
+
+body {
+    font-family: "Nunito", sans-serif;
+    overflow-x: hidden;
+    background-color: black;
+}
+.nav{
+  background-color: black;
+  color: rgb(193, 5, 5);
+}
+.main-head1{
+  color: rgb(178, 11, 11);
+  font-family: "Mea Culpa", cursive;
+  font-size: 33px;
+}
+.main-head2{
+  color: rgb(109, 108, 108);
+  font-family: "Lobster", sans-serif;
+  font-size: 25px;
+}
+.dot{
+  color: rgb(202, 206, 7);
+  font-family: "Mea Culpa", cursive;
+}
+.list1{
+  color: rgb(169, 14, 14);
+  font-family: "Kaushan Script", cursive;
+  font-size: 19px;
+}
+.list1:hover{
+  color: rgb(209, 16, 16);
+}
+.name{
+  color: rgb(250, 6, 6);
+  font-family: "Agbalumo", system-ui;
+}
+.para1{
+  color: rgb(242, 9, 9);
+}
+.btn1{
+  background-color: rgb(193, 5, 5);
+  color: black;
+  border: 2px solid rgb(70, 13, 13);
+  font-weight: bold;
+}
+.btn1:hover{
+  background-color: rgb(245, 22, 22);
+  color: black;
+  border: 2px solid rgb(70, 13, 13);
+  }
+  .btn2{
+    border: 2px solid rgb(193, 5, 5);
+    background-color: black;
+    color: rgb(193, 5, 5);
+  }
+.btn2:hover{
+  color: rgb(233, 17, 17);
+  background-color: black;
+}
+.card1{
+  border: 2px solid rgb(169, 14, 14);
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+  left: 150px;
+}
+.card2{
+  border: 2px solid rgb(169, 14, 14);
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+  top: 15px;
+  left: 150px;
+}
+.card3{
+  border: 2px solid rgb(169, 14, 14);
+  background-color: black;
+  border-radius: 20px;
+  position: relative;
+  top: 30px;
+  left: 150px;
+}
+
+.card-pic{
+  border-radius: 20px;
+}
+/* From Uiverse.io by vinodjangid07 */ 
+.Btn1 {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all .3s;
+}
+
+.svgContainer1 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all .3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.BG1 {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #f09433;
+  background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+  z-index: -1;
+  border-radius: 9px;
+  pointer-events: none;
+  transition: all .3s;
+}
+
+.Btn1:hover .BG1 {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn1:hover .svgContainer1 {
+  background-color: rgba(156, 156, 156, 0.466);
+}
+/* From Uiverse.io by yunusemre_3508 */ 
+.Btn2 {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  position: relative;
+  /* overflow: hidden; */
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.svgContainer2 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  letter-spacing: 0.8px;
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.BG2 {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #24292e;
+  background: -moz-linear-gradient(
+    45deg,
+    #24292e 0%,
+    #1b1f23 50%,
+    #111418 100%
+  );
+  background: -webkit-linear-gradient(
+    45deg,
+    #24292e 0%,
+    #1b1f23 50%,
+    #111418 100%
+  );
+  background: linear-gradient(45deg, #24292e 0%, #1b1f23 50%, #111418 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#24292e', endColorstr='#111418',GradientType=1 );
+  z-index: -1;
+  border-radius: 9px;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.Btn2:hover .BG2 {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.Btn2:hover .svgContainer2 {
+  background-color: rgba(156, 156, 156, 0.466);
+}
+
+/* From Uiverse.io by mRcOol7 */ 
+.LinkedinBtn {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  border: none;
+  background-color: transparent;
+  position: relative;
+  border-radius: 7px;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.LinkedinBtn .svgContainer3 {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center; 
+  background-color: transparent;
+  backdrop-filter: blur(4px);
+  letter-spacing: 1px; /* Adjusted letter spacing */
+  border-radius: 10px;
+  transition: all 0.3s;
+  border: 1px solid rgba(156, 156, 156, 0.466);
+}
+
+.LinkedinBtn .BG3 {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #0077b5;
+  z-index: -1;
+  border-radius: 9px;
+  pointer-events: none;
+  transition: all 0.3s;
+}
+
+.LinkedinBtn:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Added box shadow effect */
+}
+
+.LinkedinBtn:hover .BG3 {
+  transform: rotate(35deg);
+  transform-origin: bottom;
+}
+
+.LinkedinBtn:hover .svgContainer3 {
+  background-color: rgba(156, 156, 156, 0.466);
+}
+.contact{
+    width: 400px;
+    position: relative;
+    bottom: 190px;
+}
+#contact{
+    height: 800px;
+    
+}
+footer{
+    position: relative;
+    top: 270px;
+    border-radius: 10px; 
+}
+.part1{
+position: relative;
+ left: 40px;
+ top: 20px;
+ 
+}  
+  #home{
+    background-image: url(./images/pro\ pic.jpeg);
+    background-size: cover;
+  background-position: center; 
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 100vh;
+    position: relative;
+    top: 75px;
+  }
+  .para2{
+  color: rgb(192, 191, 191);
+}
+
